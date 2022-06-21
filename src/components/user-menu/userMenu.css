@@ -1,0 +1,23 @@
+#user-menu li{
+    padding: 1px;
+    margin: 0px 20px;
+}
+#wrap-avt{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+#wrap-avt h3{
+    color: #fff;
+    margin-bottom: 0px;
+}
+#wrap-avt > img{
+    border: 1px solid #ccc;
+}
+.ant-menu-horizontal{
+    border-bottom: 0px;
+}
+#user-menu{
+    background-color: transparent;
+    color: #fff;
+}

@@ -1,0 +1,33 @@
+.user-sumary{
+    display: flex;
+    width: calc(100% - 30px);
+    padding: 5px;
+    cursor: pointer;
+    align-items: center;
+    column-gap: 15px;
+    margin: 15px;
+    background-color: rgba(154, 15, 103, 0.566);
+    box-shadow: 1px 1px 2px 2px rgb(25, 38, 56), -1px -2px 2px 2px rgb(79, 76, 76);
+    border-radius: 5px;
+    transition: .1s ease;
+}
+.user-sumary h3{
+    margin: 0px;
+    color: #fff;
+}
+.user-sumary img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 3px #fff , 0px 0px 0px 5px rgb(79, 76, 76), inset 0px 0px 2px 2px #ccc;
+}
+.user-sumary-active{
+    background-color: var(--background-light);
+}
+.user-sumary-active img{
+    box-shadow: 0px 0px 0px 3px #fff , 0px 0px 0px 5px rgb(79, 76, 76), inset 0px 0px 2px 2px #ccc;
+}
+.user-sumary:hover{
+    background: #00000050;
+}

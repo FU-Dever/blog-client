@@ -1,0 +1,11 @@
+#user-profile{
+    margin: 30px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-bottom: 25px;
+}
+.user-profile-heading{
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+}

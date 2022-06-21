@@ -1,0 +1,21 @@
+.ant-modal-body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#file-input{
+    display: none;
+}
+#file-select{
+    cursor: pointer;
+}
+#wrap-post-popUp{
+    cursor: pointer;
+    height: 100%;
+}
+#add-ic{
+    color: #fff;
+    height: 100%;
+}

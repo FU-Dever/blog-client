@@ -1,0 +1,25 @@
+@import '../../config/theme/theme.css';
+
+#wrap-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 3fr) minmax(0, 1fr);
+    background-color: #fff;
+}
+
+.body-col {
+    height: calc(100vh - 60px);
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.body-col::-webkit-scrollbar {
+    display: none;
+}
+
+.sz-box-15 {
+    height: 15px;
+}
+#public-col,
+#private-col{
+    background-color: var(--background-second);
+}

@@ -1,0 +1,20 @@
+@import '../../../config/theme/theme.css';
+
+#logo-home{
+    height: 40px;
+    margin: 0px 20px;
+}
+#user{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#wrap-tabBar{
+    display: flex;
+    column-gap: 20px;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-dark);
+}
